@@ -1,0 +1,2011 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinkit_clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body class="d-flex flex-column align-items-center ">
+
+    
+    <!-- top nav -->
+    <div class="d-flex position-fixed top-0 start-0 w-100  " style="height: 130px; z-index: 1030;">
+        <div class="d-flex justify-content-between align-items-center w-auto h-100 p-5" style="background-color: white;">
+            <img src="icons_bt/logo.png" alt="logo">
+        </div>
+        <!-- nav -->
+        <div class="d-flex justify-content-between align-items-center w-100 h-100">
+            <nav class="navbar bg-body-tertiary d-flex justify-content-between align-items-center w-100 h-100">
+                <div class="d-flex w-100 h-100">
+                    <div class="d-flex justify-content-center align-items-center flex-column  h-100 "
+                        style=" width: 30%;">
+                        <a class=" navbar-brand d-flex justify-content-center w-75  mt-3"
+                            style="font-size: 25px;"><b>Delivery in 11 min</b></a>
+                        <a class="navbar-brand d-flex  justify-content-center w-75 mb-3">Vadodara, Gujrat, India</a>
+                    </div>
+
+                    <form class="d-flex w-100 h-100 align-items-center me-5" role="search">
+                        <input class="form-control w-75 rounded-4" style="height: 70px;" type="search"
+                            placeholder="Search" aria-label="Search">
+                        <button class="btn btn-link btn-lg text-black "
+                            style="height: 80px; width:200px ; text-decoration: none; font-size: 30px;"
+                            type="submit">Login</button>
+                        <button class="btn btn-success btn-lg" style="height: 80px; width: 170px; font-size: 25px;"
+                            type="submit">My Cart</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <!-- main container -->
+    <div class="d-flex flex-column h-100 " style="margin-top: 140px; width: 80%;">
+        <img src="icons_bt/banner.jpg" class="w-100 h-auto" alt="">
+        <div class="d-flex mt-2">
+            <img src="icons_bt/Pet-Care_WEB.jpg" class="w-25 mx-3 ms-4" alt="">
+            <img src="icons_bt/pharmacy-WEB.jpg" class="w-25 mx-3" alt="">
+            <img src="icons_bt/babycare-WEB.jpg" class="w-25 mx-3" alt="">
+        </div>
+        <div class=" mt-4 ms-0">
+            <div class="row ms-0 container-fluid">
+                <div class="col col-xxl-1 h-auto w-auto p-0 m-0 rounded-4 border border-light ">
+                    <img src="icons_bt/category/paan corner.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0 mx-1">
+                    <img src="icons_bt/category/Dairy, Bread & Eggs.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0">
+                    <img src="icons_bt/category/Fruits & Vegetables.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0 mx-1">
+                    <img src="icons_bt/category/Cold Drinks & Juices.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0">
+                    <img src="icons_bt/category/Snacks & Munchies.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0 mx-1">
+                    <img src="icons_bt/category/Breakfast & Instant Food.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0">
+                    <img src="icons_bt/category/Sweet Tooth.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0 mx-1">
+                    <img src="icons_bt/category/Bakery & Biscuits.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0">
+                    <img src="icons_bt/category/Tea, Coffe & Health Drink.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0 mx-1">
+                    <img src="icons_bt/category/Atta, Rice & Dal.png" style="height: 260px; width: 170px;">
+                </div>
+            </div>
+        </div>
+        <div class=" mt-1 ms-0">
+            <div class="row ms-0 container-fluid">
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0">
+                    <img src="icons_bt/category/Masala, Oil & More.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0 mx-1">
+                    <img src="icons_bt/category/Sauces & Spreads.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0">
+                    <img src="icons_bt/category/Chicken, Meat & Fish.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0 mx-1">
+                    <img src="icons_bt/category/Organic & Healthy Living.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0">
+                    <img src="icons_bt/category/Baby Care.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0 mx-1">
+                    <img src="icons_bt/category/Pharma & Wellness.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0">
+                    <img src="icons_bt/category/Cleaning Essentials.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0 mx-1">
+                    <img src="icons_bt/category/Home & Office.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0">
+                    <img src="icons_bt/category/Personal Care.png" style="height: 260px; width: 170px;">
+                </div>
+                <div class="col col-xxl-1 border border-light rounded-4 h-auto w-auto p-0 m-0 mx-1">
+                    <img src="icons_bt/category/Pet Care.png" style="height: 260px; width: 170px;">
+                </div>
+            </div>
+        </div>
+
+        <!-- all lists -->
+        <div class=" mt-4 ms-0 " style="height: 550px; width: auto;">
+            <div class="d-flex justify-content-between">
+                <p class="fs-2">Dairy, Bread & Eggs </p>
+                <p class="fs-2 text-success">see all</p>
+            </div>
+            <div class="d-flex flex-nowrap overflow-x-scroll  mt-0 ms-0 " style="height: 440px; width: auto; overflow-y: hidden;">
+
+                <div class="row ms-0 container-fluid " style="height: 420px;">
+                    <div class="d-flex flex-nowrap ms-0 container-fluid  " style="height: 420px;">
+                        <div class="col col-xxl-1 w-auto p-0 m-0 me-2 rounded-2" style="height: 431px;" >
+
+                            <div class="card" style="width: 255px; height: auto;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk.webp " class="card-img-top pt-3 object-fit-scale "
+                                    style="height: 220px; width: 270px;" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milk</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹55</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                                <div class="card" style="width: 255px ;">
+                                    <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                        style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                    <div class="card-body">
+
+                                        <div class="d-flex h-100 w-100">
+                                            <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                                alt="15-min_img">
+                                            <p class=" MB-0">15 MINS</p>
+                                        </div>
+
+                                        <h5 class="card-title">Amul Gifts</h5>
+                                        <p class="card-text">1 kg</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="card-title mb-0 h5">₹850</p>
+                                            <a href="#" class="btn btn-outline-success">ADD</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                        
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Coco water</h5>
+                                    <p class="card-text">500g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹33</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">6 pices</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹59</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk Drinks.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milks Drinks</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹34</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Oats.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">1kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹359</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Batter.jpg"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">5 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">20g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹19</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Gifts</h5>
+                                    <p class="card-text">1 kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹850</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                
+                    
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Coco water</h5>
+                                <p class="card-text">500g</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹33</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Peanut Butter</h5>
+                                <p class="card-text">6 pices</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹59</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class=" mt-4 ms-0 " style="height: 550px; width: auto;">
+            <div class="d-flex justify-content-between">
+                <p class="fs-2">Snacks & Munchies </p>
+                <p class="fs-2 text-success">see all</p>
+            </div>
+            <div class="d-flex flex-nowrap overflow-x-scroll  mt-0 ms-0 " style="height: 440px; width: auto; overflow-y: hidden;">
+
+                <div class="row ms-0 container-fluid " style="height: 420px;">
+                    <div class="d-flex flex-nowrap ms-0 container-fluid  " style="height: 420px;">
+                        <div class="col col-xxl-1 w-auto p-0 m-0 me-2 rounded-2" style="height: 431px;" >
+
+                            <div class="card" style="width: 255px; height: auto;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk.webp " class="card-img-top pt-3 object-fit-scale "
+                                    style="height: 220px; width: 270px;" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milk</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹55</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                                <div class="card" style="width: 255px ;">
+                                    <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                        style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                    <div class="card-body">
+
+                                        <div class="d-flex h-100 w-100">
+                                            <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                                alt="15-min_img">
+                                            <p class=" MB-0">15 MINS</p>
+                                        </div>
+
+                                        <h5 class="card-title">Amul Gifts</h5>
+                                        <p class="card-text">1 kg</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="card-title mb-0 h5">₹850</p>
+                                            <a href="#" class="btn btn-outline-success">ADD</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                        
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Coco water</h5>
+                                    <p class="card-text">500g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹33</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">6 pices</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹59</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk Drinks.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milks Drinks</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹34</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Oats.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">1kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹359</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Batter.jpg"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">5 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">20g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹19</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Gifts</h5>
+                                    <p class="card-text">1 kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹850</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                
+                    
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Coco water</h5>
+                                <p class="card-text">500g</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹33</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Peanut Butter</h5>
+                                <p class="card-text">6 pices</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹59</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class=" mt-4 ms-0 " style="height: 550px; width: auto;">
+            <div class="d-flex justify-content-between">
+                <p class="fs-2">Mouth fresheners</p>
+                <p class="fs-2 text-success">see all</p>
+            </div>
+            <div class="d-flex flex-nowrap overflow-x-scroll  mt-0 ms-0 " style="height: 440px; width: auto; overflow-y: hidden;">
+
+                <div class="row ms-0 container-fluid " style="height: 420px;">
+                    <div class="d-flex flex-nowrap ms-0 container-fluid  " style="height: 420px;">
+                        <div class="col col-xxl-1 w-auto p-0 m-0 me-2 rounded-2" style="height: 431px;" >
+
+                            <div class="card" style="width: 255px; height: auto;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk.webp " class="card-img-top pt-3 object-fit-scale "
+                                    style="height: 220px; width: 270px;" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milk</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹55</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                                <div class="card" style="width: 255px ;">
+                                    <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                        style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                    <div class="card-body">
+
+                                        <div class="d-flex h-100 w-100">
+                                            <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                                alt="15-min_img">
+                                            <p class=" MB-0">15 MINS</p>
+                                        </div>
+
+                                        <h5 class="card-title">Amul Gifts</h5>
+                                        <p class="card-text">1 kg</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="card-title mb-0 h5">₹850</p>
+                                            <a href="#" class="btn btn-outline-success">ADD</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                        
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Coco water</h5>
+                                    <p class="card-text">500g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹33</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">6 pices</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹59</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk Drinks.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milks Drinks</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹34</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Oats.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">1kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹359</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Batter.jpg"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">5 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">20g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹19</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Gifts</h5>
+                                    <p class="card-text">1 kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹850</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                
+                    
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Coco water</h5>
+                                <p class="card-text">500g</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹33</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Peanut Butter</h5>
+                                <p class="card-text">6 pices</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹59</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class=" mt-4 ms-0 " style="height: 550px; width: auto;">
+            <div class="d-flex justify-content-between">
+                <p class="fs-2">Cold Drinks & Juices</p>
+                <p class="fs-2 text-success">see all</p>
+            </div>
+            <div class="d-flex flex-nowrap overflow-x-scroll  mt-0 ms-0 " style="height: 440px; width: auto; overflow-y: hidden;">
+
+                <div class="row ms-0 container-fluid " style="height: 420px;">
+                    <div class="d-flex flex-nowrap ms-0 container-fluid  " style="height: 420px;">
+                        <div class="col col-xxl-1 w-auto p-0 m-0 me-2 rounded-2" style="height: 431px;" >
+
+                            <div class="card" style="width: 255px; height: auto;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk.webp " class="card-img-top pt-3 object-fit-scale "
+                                    style="height: 220px; width: 270px;" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milk</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹55</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                                <div class="card" style="width: 255px ;">
+                                    <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                        style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                    <div class="card-body">
+
+                                        <div class="d-flex h-100 w-100">
+                                            <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                                alt="15-min_img">
+                                            <p class=" MB-0">15 MINS</p>
+                                        </div>
+
+                                        <h5 class="card-title">Amul Gifts</h5>
+                                        <p class="card-text">1 kg</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="card-title mb-0 h5">₹850</p>
+                                            <a href="#" class="btn btn-outline-success">ADD</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                        
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Coco water</h5>
+                                    <p class="card-text">500g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹33</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">6 pices</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹59</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk Drinks.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milks Drinks</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹34</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Oats.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">1kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹359</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Batter.jpg"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">5 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">20g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹19</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Gifts</h5>
+                                    <p class="card-text">1 kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹850</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                
+                    
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Coco water</h5>
+                                <p class="card-text">500g</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹33</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Peanut Butter</h5>
+                                <p class="card-text">6 pices</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹59</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class=" mt-4 ms-0 " style="height: 550px; width: auto;">
+            <div class="d-flex justify-content-between">
+                <p class="fs-2">Snacks & Munchies </p>
+                <p class="fs-2 text-success">see all</p>
+            </div>
+            <div class="d-flex flex-nowrap overflow-x-scroll  mt-0 ms-0 " style="height: 440px; width: auto; overflow-y: hidden;">
+
+                <div class="row ms-0 container-fluid " style="height: 420px;">
+                    <div class="d-flex flex-nowrap ms-0 container-fluid  " style="height: 420px;">
+                        <div class="col col-xxl-1 w-auto p-0 m-0 me-2 rounded-2" style="height: 431px;" >
+
+                            <div class="card" style="width: 255px; height: auto;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk.webp " class="card-img-top pt-3 object-fit-scale "
+                                    style="height: 220px; width: 270px;" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milk</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹55</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                                <div class="card" style="width: 255px ;">
+                                    <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                        style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                    <div class="card-body">
+
+                                        <div class="d-flex h-100 w-100">
+                                            <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                                alt="15-min_img">
+                                            <p class=" MB-0">15 MINS</p>
+                                        </div>
+
+                                        <h5 class="card-title">Amul Gifts</h5>
+                                        <p class="card-text">1 kg</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="card-title mb-0 h5">₹850</p>
+                                            <a href="#" class="btn btn-outline-success">ADD</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                        
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Coco water</h5>
+                                    <p class="card-text">500g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹33</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">6 pices</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹59</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk Drinks.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milks Drinks</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹34</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Oats.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">1kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹359</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Batter.jpg"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">5 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">20g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹19</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Gifts</h5>
+                                    <p class="card-text">1 kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹850</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                
+                    
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Coco water</h5>
+                                <p class="card-text">500g</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹33</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Peanut Butter</h5>
+                                <p class="card-text">6 pices</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹59</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class=" mt-4 ms-0 " style="height: 550px; width: auto;">
+            <div class="d-flex justify-content-between">
+                <p class="fs-2">Mouth fresheners</p>
+                <p class="fs-2 text-success">see all</p>
+            </div>
+            <div class="d-flex flex-nowrap overflow-x-scroll  mt-0 ms-0 " style="height: 440px; width: auto; overflow-y: hidden;">
+
+                <div class="row ms-0 container-fluid " style="height: 420px;">
+                    <div class="d-flex flex-nowrap ms-0 container-fluid  " style="height: 420px;">
+                        <div class="col col-xxl-1 w-auto p-0 m-0 me-2 rounded-2" style="height: 431px;" >
+
+                            <div class="card" style="width: 255px; height: auto;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk.webp " class="card-img-top pt-3 object-fit-scale "
+                                    style="height: 220px; width: 270px;" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milk</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹55</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                                <div class="card" style="width: 255px ;">
+                                    <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                        style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                    <div class="card-body">
+
+                                        <div class="d-flex h-100 w-100">
+                                            <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                                alt="15-min_img">
+                                            <p class=" MB-0">15 MINS</p>
+                                        </div>
+
+                                        <h5 class="card-title">Amul Gifts</h5>
+                                        <p class="card-text">1 kg</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="card-title mb-0 h5">₹850</p>
+                                            <a href="#" class="btn btn-outline-success">ADD</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                        
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Coco water</h5>
+                                    <p class="card-text">500g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹33</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">6 pices</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹59</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk Drinks.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milks Drinks</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹34</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Oats.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">1kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹359</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Batter.jpg"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">5 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">20g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹19</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Gifts</h5>
+                                    <p class="card-text">1 kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹850</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                
+                    
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Coco water</h5>
+                                <p class="card-text">500g</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹33</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Peanut Butter</h5>
+                                <p class="card-text">6 pices</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹59</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class=" mt-4 ms-0 " style="height: 550px; width: auto;">
+            <div class="d-flex justify-content-between">
+                <p class="fs-2">Cold Drinks & Juices</p>
+                <p class="fs-2 text-success">see all</p>
+            </div>
+            <div class="d-flex flex-nowrap overflow-x-scroll  mt-0 ms-0 " style="height: 440px; width: auto; overflow-y: hidden;">
+
+                <div class="row ms-0 container-fluid " style="height: 420px;">
+                    <div class="d-flex flex-nowrap ms-0 container-fluid  " style="height: 420px;">
+                        <div class="col col-xxl-1 w-auto p-0 m-0 me-2 rounded-2" style="height: 431px;" >
+
+                            <div class="card" style="width: 255px; height: auto;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk.webp " class="card-img-top pt-3 object-fit-scale "
+                                    style="height: 220px; width: 270px;" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milk</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹55</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                                <div class="card" style="width: 255px ;">
+                                    <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                        style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                    <div class="card-body">
+
+                                        <div class="d-flex h-100 w-100">
+                                            <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                                alt="15-min_img">
+                                            <p class=" MB-0">15 MINS</p>
+                                        </div>
+
+                                        <h5 class="card-title">Amul Gifts</h5>
+                                        <p class="card-text">1 kg</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="card-title mb-0 h5">₹850</p>
+                                            <a href="#" class="btn btn-outline-success">ADD</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                        
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Coco water</h5>
+                                    <p class="card-text">500g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹33</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">6 pices</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹59</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Milk Drinks.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Milks Drinks</h5>
+                                    <p class="card-text">200ml</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹34</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Oats.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">1kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹359</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Dairy, Bread & Eggs/Batter.jpg"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">5 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Peanut Butter</h5>
+                                    <p class="card-text">20g</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹19</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                            
+                            <div class="card" style="width: 255px ;">
+                                <img src="icons_bt/Cold Drinks & Juices/Beverages Gift Packs.webp"
+                                    style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-contain" alt="img">
+                                <div class="card-body">
+
+                                    <div class="d-flex h-100 w-100">
+                                        <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                            alt="15-min_img">
+                                        <p class=" MB-0">15 MINS</p>
+                                    </div>
+
+                                    <h5 class="card-title">Amul Gifts</h5>
+                                    <p class="card-text">1 kg</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-title mb-0 h5">₹850</p>
+                                        <a href="#" class="btn btn-outline-success">ADD</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                
+                    
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Cold Drinks & Juices/Coconut Water.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Coco water</h5>
+                                <p class="card-text">500g</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹33</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-xxl-1 w-auto p-0 m-0 mx-2 rounded-2" style="height: 431px;" >
+                        
+                        <div class="card" style="width: 255px ;">
+                            <img src="icons_bt/Dairy, Bread & Eggs/Peanut Butter.webp"
+                                style="height: 220px; width: 270px;" class="card-img-top pt-3 object-fit-scale" alt="img">
+                            <div class="card-body">
+
+                                <div class="d-flex h-100 w-100">
+                                    <img src="icons_bt/15-mins.png" class="" style="height: 24px; width: 24px;"
+                                        alt="15-min_img">
+                                    <p class=" MB-0">15 MINS</p>
+                                </div>
+
+                                <h5 class="card-title">Amul Peanut Butter</h5>
+                                <p class="card-text">6 pices</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-title mb-0 h5">₹59</p>
+                                    <a href="#" class="btn btn-outline-success">ADD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <div class="container-fluid  d-flex align-items-center mt-4">
+            <div class="d-flex flex-column justify-content-between " style="width: 30%;">
+                <h3>Userfull Links</h3> 
+                <div class="container-fluid d-flex justify-content-between">
+                    <div class="d-flex flex-column justify-content-between text-black-50">
+                            <h5 >About</h5>
+                            <h5 >Careers</h5>
+                            <h5 >Blog</h5>
+                            <h5 >Press</h5>
+                            <h5 >Lead</h5>
+                            <h5 >Value</h5>
+
+                    </div>
+                    <div class="d-flex flex-column justify-content-between text-black-50">
+                            <h5>Privacy</h5>
+                            <h5>Terms</h5>
+                            <h5>FAQs</h5>
+                            <h5>Security</h5>
+                            <h5>Mobile</h5>
+                            <h5>Contact</h5>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between text-black-50">
+                            <h5>Partner</h5>
+                            <h5>Franchise</h5>
+                            <h5>Seller</h5>
+                            <h5>Warehouse</h5>
+                            <h5>Deliver</h5>
+                            <h5>Resources</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-flex flex-column justify-content-between " style="width: 70%;">
+                <div class="d-flex justify-content-start">
+                    <h3>Categories</h3> <h3 class="ms-4 text-success">see all</h3>
+                </div>
+                <div class="container-fluid d-flex justify-content-between">
+                    <div class="d-flex flex-column justify-content-between text-black-50">
+                        <h5>Vegetables & Fruits</h5>
+                        <h5>Cold Drinks & Juices</h5>
+                        <h5>Bakery & Biscuits</h5>
+                        <h5>Dry Fruits, Masala & Oil</h5>
+                        <h5>Paan Corner</h5>
+                        <h5>Pharma & Wellness</h5>
+                        <h5>Ice Creams & Frozen Desserts</h5>
+                        <h5>Beauty & Cosmetics</h5>
+                        <h5>Stationery Needs</h5>
+                        <h5>Print Store</h5>
+                        
+
+                    </div>
+                    <div class="d-flex flex-column justify-content-between text-black-50">
+                        <h5>Dairy & Breakfast</h5>
+                        <h5>Instant & Frozen Food</h5>
+                        <h5>Sweet Tooth</h5>
+                        <h5>Sauces & Spreads</h5>
+                        <h5>Organic & Premium</h5>
+                        <h5>Cleaning Essentials</h5>
+                        <h5>Personal Care</h5>
+                        <h5>Fashion & Accessories</h5>
+                        <h5>Books</h5>
+                        <h5>Navratri Specials</h5>
+                        
+                    </div>
+                    <div class="d-flex flex-column justify-content-between text-black-50">
+                        <h5>Munchies</h5>
+                        <h5>Tea, Coffee & Health Drinks</h5>
+                        <h5>Atta, Rice & Dal</h5>
+                        <h5>Chicken, Meat & Fish</h5>
+                        <h5>Baby Care</h5>
+                        <h5>Home & Office</h5>
+                        <h5>Pet Care</h5>
+                        <h5>Electronics & Electricals</h5>
+                        <h5>Toys & Games</h5>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="">
+            <div class="container-fluid text-center d-flex justify-content-around mt-3">
+                
+                    <!-- Left Section -->
+                    <div class=" d-flex align-items-center justify-content-center " style="width: 500px;">
+                        <p class="">&copy; Blink Commerce Private Limited, 2016-2025</p>
+                    </div>
+                    
+                    <!-- Middle Section -->
+                    <div class="" style="width: 500px; ">
+                        <a href="#" class="btn btn-link text-black fw-bold text-muted text-decoration-none">Download App</a>
+                        <a href="#"><img src="icons_bt/footer_appleStore.webp" style="height: 40px; width: 100px;" alt="App Store" ></a>
+                        <a href="#"><img src="icons_bt/footer_appStore.webp" style="height: 40px; width: 100px;" alt="Google Play"></a>
+                    </div>
+    
+                    <!-- Right Section -->
+                    <div class=" d-flex justify-content-around " style="width: 500px; ">
+                        <img src="icons_bt/fb_bw.png" style="height: 50px; width: 50px;" ></img>
+                        <img src="icons_bt/tw_bw.png" style="height: 50px; width: 50px;" ></img>
+                        <img src="icons_bt/insta_bw.png" style="height: 50px; width: 50px;" ></img>
+                        <img src="icons_bt/insta_bw.png" style="height: 50px; width: 50px;" ></img>
+                        <img src="icons_bt/threads_icon_black_white.svg" class="rounded-circle" style="height: 50px; width: 50px;" ></img>
+                    </div>
+                
+               
+            </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <p class="small text-muted">
+                            “Blinkit” is owned & managed by "Blink Commerce Private Limited" and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”.
+                        </p>
+                    </div>
+                </div>
+
+            
+        </div>
+        
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+</html>
