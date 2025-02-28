@@ -1,0 +1,8 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/Blinkit_with_Bootstrap.html"
+        }
+    ]
+}
